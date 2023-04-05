@@ -1,0 +1,19 @@
+{
+  "name": "lend-a-book",
+  "version": "1.0.0",
+  "description": "This server API is meant for my Lend-A-Book project.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BAChapin/Lend-A-Book_Server.git"
+  },
+  "author": "Brett C.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BAChapin/Lend-A-Book_Server/issues"
+  },
+  "homepage": "https://github.com/BAChapin/Lend-A-Book_Server#readme"
+}
