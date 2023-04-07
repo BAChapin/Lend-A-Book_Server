@@ -1,19 +1,31 @@
 {
-  "name": "lend-a-book",
-  "version": "1.0.0",
-  "description": "This server API is meant for my Lend-A-Book project.",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BAChapin/Lend-A-Book_Server.git"
-  },
-  "author": "Brett C.",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BAChapin/Lend-A-Book_Server/issues"
-  },
-  "homepage": "https://github.com/BAChapin/Lend-A-Book_Server#readme"
+    "name": "lend-a-book",
+    "version": "1.0.0",
+    "description": "This server API is meant for my Lend-A-Book project.",
+    "main": "app.js",
+    "scripts": {
+        "start:dev": "nodemon server.js",
+        "start:prod": "NODE_ENV=production nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BAChapin/Lend-A-Book_Server.git"
+    },
+    "author": "Brett C.",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/BAChapin/Lend-A-Book_Server/issues"
+    },
+    "homepage": "https://github.com/BAChapin/Lend-A-Book_Server#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "mongoose": "^7.0.3",
+        "morgan": "^1.10.0",
+        "slugify": "^1.6.6",
+        "validator": "^13.9.0"
+    }
 }
